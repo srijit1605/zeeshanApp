@@ -1,0 +1,5 @@
+.heroContainer {
+    background-image: url('../../assets/bg.jpg');
+    background-size: cover;
+    min-height: 180vH;
+}

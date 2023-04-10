@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectCategories from './ProjectCategories'
+import ProjectCategories from './ProjectCategories/ProjectCategories'
 import Usp from './Usp'
 import Partners from './Partners'
 

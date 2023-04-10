@@ -1,0 +1,19 @@
+.footerBg {
+    padding: 3rem;
+}
+.footerWrapper {
+    border-radius: 20px;
+    background-color: #110c58;
+    padding: 3rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.socialButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.socialItem {
+    padding: 0 15px;
+}

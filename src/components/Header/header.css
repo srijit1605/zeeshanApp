@@ -3,6 +3,7 @@
     padding: 3rem 3rem 0 3rem;
     align-items: center;
 }
+
 .headerSection {
     background-color: #ffffff33;
     display: flex;
@@ -10,19 +11,25 @@
     padding: 10px;
     border-radius: 20px 20px 0 0;
 }
+
 .logo {
     display: flex;
     align-items: center;
 }
+
 .logoText {
     padding: 0 20px;
 }
+
 .headerRight {
-    display: flex;  
+    display: flex;
+    align-items: center;
 }
+
 .nav {
-    display: flex;  
+    display: flex;
 }
+
 .navItem {
     padding: 0 10px;
 }

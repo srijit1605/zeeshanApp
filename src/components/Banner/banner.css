@@ -1,0 +1,12 @@
+.bannerContainer {
+    background-image: url(../../assets/wfh.jpeg);
+    background-size: cover;
+    min-height: 80vH;
+    padding: 3rem;
+}
+.bannerText {
+    color: #bada55;
+    font-size: 120px;
+    text-transform: uppercase;
+    text-align: left;
+}

@@ -1,0 +1,16 @@
+.contactContainer {
+    background-image: url(../../assets/contactConstruction.jpeg);
+    background-size: cover;
+    min-height: 80vH;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.leftContact {
+    width: 40%;
+    align-items: center;
+}

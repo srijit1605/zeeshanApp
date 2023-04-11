@@ -2,4 +2,32 @@
     background-image: url('../../assets/bg.jpg');
     background-size: cover;
     min-height: 180vH;
+    padding:  3rem 3rem;
+    position: relative;
+    z-index: -1;
+}
+
+.heroSliderContainer {
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: url('../../assets/DreamHouse.jpg');
+    background-size: cover;
+    height: 85vh;
+}
+
+.heroHeader {
+    position: relative;
+    color: white;
+    font-size: 35px;
+    padding: 3rem;
+    text-align: left;
+}
+
+.exploreBtn {
+    color: white;
+    background-color: #110c58;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    border:1px solid #110c58;
 }

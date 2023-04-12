@@ -1,0 +1,28 @@
+.ProjectBackground {
+    padding: 3rem;
+    display: flex;
+}
+
+.ProjectContainer {
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: url('../../assets/SpaPool.jpg');
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardSection {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.cardContainer {
+    width: 20%;
+    padding: 0.8rem;
+    margin: 1rem;
+    border-radius: 20px;
+}

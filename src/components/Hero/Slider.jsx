@@ -1,5 +1,4 @@
 import React from 'react'
-import DreamHouse from '../../assets/DreamHouse.jpg'
 import './hero.css'
 
 const Slider = () => {
@@ -9,7 +8,6 @@ const Slider = () => {
      <h1>The difference between <br/> a house and a home<br/> is us</h1>
       <button className='exploreBtn'>EXPLORE MORE</button>
      </div>
-      {/* <img src={DreamHouse} className='heroImage'/> */}
     </div>
   )
 }

@@ -1,8 +1,9 @@
 import React from 'react'
+import './hero.css'
 
 const FeaturedProperties = () => {
   return (
-    <div>FeaturedProperties</div>
+    <div className='FeaturedPropertiesContainer'>FeaturedProperties</div>
   )
 }
 

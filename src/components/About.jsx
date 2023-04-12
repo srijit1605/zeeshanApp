@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectCategories from './ProjectCategories/ProjectCategories'
 import Usp from './Usp'
-import Partners from './Partners'
+import Partners from './Partners/Partners'
 
 const About = () => {
   return (

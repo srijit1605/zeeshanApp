@@ -30,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: drop-shadow(4px 4px 4px #00000099);
 }
 
 .cardOverlay {

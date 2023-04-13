@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCategories from './ProjectCategories/ProjectCategories'
-import Usp from './Usp'
+import Usp from './Usp/Usp'
 import Partners from './Partners/Partners'
 
 const About = () => {

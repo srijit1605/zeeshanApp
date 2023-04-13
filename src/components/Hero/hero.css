@@ -30,12 +30,73 @@
     text-transform: capitalize;
     border-radius: 30px;
     border:1px solid #110c58;
+    width: max-content;
+    filter: drop-shadow(4px 4px 4px #00000099);
 }
 
 .FeaturedPropertiesContainer {
     margin-top: 3rem;
+    padding: 3rem;
     border-radius: 20px;
     overflow: hidden;
     height: 98vh;
     background-color: #6b8571e0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textBlock {
+    padding: 3rem;
+    width: calc(30% - 9rem);
+    height: calc( 100% - 6rem);
+    border-radius: 20px;
+    position: relative;
+    border: 2px solid aquamarine;
+}
+
+.imageBlock {
+    width: calc(30% - 3rem);
+    height: 100%;
+    border-radius: 20px;
+    background-image: url(../../assets/ResidentialBuildings.jpg);
+    background-size: cover;
+    position: relative;
+    filter: drop-shadow(4px 4px 4px #00000099)
+}
+
+.rowBlock {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.imageRowBlock1 {
+    height: 50%;
+    background-image: url(../../assets/CorporateBuilding.jpg);
+    background-size: cover;
+    margin-bottom: 3rem;
+    width:100%;
+    border-radius: 20px;
+    filter: drop-shadow(4px 4px 4px #00000099)
+
+}
+
+.imageRowBlock2 {
+    height: 50%;
+    background-image: url(../../assets/BuildingConstruction.jpg);
+    background-size: cover;
+    margin-bottom: 3rem;
+    width:100%;
+    border-radius: 20px;
+    filter: drop-shadow(4px 4px 4px #00000099)
+
+}
+
+.textHeader {
+    color: white;
 }

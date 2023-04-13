@@ -1,0 +1,25 @@
+.uspBg {
+    background-image: url(../../assets/usp.jpg);
+    height: 80vh;
+    width: 100%;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.uspOverlay {
+    background-color: #ffffff99;
+    height: calc(100% - 6rem);
+    width: calc(100% - 6rem);
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.uspItem {
+    width: 30%;
+    border-radius: 20px;
+    background-color: #00000033;
+    color: white
+}

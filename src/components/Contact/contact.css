@@ -13,3 +13,19 @@
     width: 40%;
     align-items: center;
 }
+
+.inputStyles {
+    padding: 10px;
+    width: 50%;
+    border: 2px solid black;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+.sendBtn {
+    padding : 10px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+}

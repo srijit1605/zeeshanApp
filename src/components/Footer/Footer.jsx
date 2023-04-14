@@ -41,7 +41,9 @@ const Footer = () => {
         <img className='socialItem' src={yt} width={30} height={30}/>
         <img className='socialItem' src={ln} width={30} height={30}/>
       </div>
-      <div>copyright section</div>
+      <div><p>copyright@Zeeshan Constructions.</p>
+      </div>
+      
     </div>
   )
 }

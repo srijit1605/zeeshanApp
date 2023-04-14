@@ -6,6 +6,7 @@ const FeaturedProperties = () => {
     <div className="FeaturedPropertiesContainer">
       <div className="textBlock">
         <h1 className="textHeader">Featured Properties</h1>
+        <p>Checkout our flagship projects at Blue Heights, Sky Heights, ZNG Residency, Home@56 and many other projects.</p>
       </div>
       <div className="imageBlock"></div>
       <div className="rowBlock">

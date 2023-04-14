@@ -7,7 +7,8 @@ const Contact = () => {
       <div className="leftContact">
         <h2>Subscribe to our mailing list</h2>
         <label>Enter your email:</label>
-        <input type="text" />
+        <input className="inputStyles" type="text" />
+        <button className="sendBtn">Send</button>
       </div>
       <div>
         <iframe

@@ -12,6 +12,7 @@
 .socialButton {
     display: flex;
     justify-content: flex-end;
+    padding: 15px;
 }
 
 .socialItem {

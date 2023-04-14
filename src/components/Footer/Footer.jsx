@@ -1,6 +1,11 @@
 import React from 'react'
 import './footer.css'
 import logo from './../../assets/logo.png'
+import fb from './../../assets/fb.png'
+import insta from './../../assets/insta.png'
+import tw from './../../assets/tw.png'
+import yt from './../../assets/yt.png'
+import ln from './../../assets/in.png'
 
 const Footer = () => {
   return (
@@ -29,10 +34,11 @@ const Footer = () => {
         </div>
       </div>
       <div className='socialButton'>
-        <p className='socialItem'>fb</p>
-        <p className='socialItem'>insta</p>
-        <p className='socialItem'>twitter</p>
-        <p className='socialItem'>wp</p>
+        <img className='socialItem' src={fb} width={30} height={30}/>
+        <img className='socialItem' src={insta} width={30} height={30}/>
+        <img className='socialItem' src={tw} width={30} height={30}/>
+        <img className='socialItem' src={yt} width={30} height={30}/>
+        <img className='socialItem' src={ln} width={30} height={30}/>
       </div>
       <div>copyright section</div>
     </div>

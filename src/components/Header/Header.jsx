@@ -13,7 +13,7 @@ const Header = () => {
             {menuItems.map((menuItem) => <p className='navItem'>{menuItem}</p>)}
           </div>
           <div>
-            <p><a href='/'>+2345678893</a></p>
+            <p><a href='tel:+916290751329'>+91 629 075 1329</a></p>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import './App.css';
 import About from './components/About';
-import Assist from './components/Assist';
+import Assist from './components/Assist/Assist';
 import Banner from './components/Banner/Banner';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';

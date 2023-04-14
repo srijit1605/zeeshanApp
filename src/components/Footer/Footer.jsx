@@ -13,7 +13,8 @@ const Footer = () => {
       <div className='footerWrapper'>
         <div>
           <img src={logo} height={160} alt='Zeeshan' />
-          <h3>Zeeshan</h3>
+          <h3 style={{margin: '0'}}>Zeeshan</h3>
+          <h4>Constructions</h4>
           </div>
         <div>
           <p>Company</p>

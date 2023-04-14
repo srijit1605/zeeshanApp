@@ -59,7 +59,7 @@
     width: calc(30% - 3rem);
     height: 100%;
     border-radius: 20px;
-    background-image: url(../../assets/ResidentialBuildings.jpg);
+    background: url(../../assets/BlueHeights.jpg) no-repeat center;
     background-size: cover;
     position: relative;
     filter: drop-shadow(4px 4px 4px #00000099)
@@ -77,7 +77,7 @@
 
 .imageRowBlock1 {
     height: 50%;
-    background-image: url(../../assets/CorporateBuilding.jpg);
+    background: url(../../assets/zng.jpg) no-repeat center;
     background-size: cover;
     margin-bottom: 3rem;
     width:100%;
@@ -88,7 +88,7 @@
 
 .imageRowBlock2 {
     height: 50%;
-    background-image: url(../../assets/BuildingConstruction.jpg);
+    background-image: url(../../assets/home56.jpg);
     background-size: cover;
     margin-bottom: 3rem;
     width:100%;

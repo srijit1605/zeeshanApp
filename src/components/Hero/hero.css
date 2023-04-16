@@ -12,13 +12,14 @@
     background-image: url('../../assets/DreamHouse.jpg');
     background-size: cover;
     height: 95vh;
-    margin-top: -130px;
+    margin-top: -128px;
 }
 
 .heroHeader {
     position: relative;
     color: white;
     font-size: 35px;
+    line-height: 2em;
     padding: 3rem;
     text-align: left;
 }
@@ -52,6 +53,7 @@
     height: calc( 100% - 6rem);
     border-radius: 20px;
     position: relative;
+    text-align: left;
 }
 
 .imageBlock {

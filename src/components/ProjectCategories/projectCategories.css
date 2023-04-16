@@ -14,6 +14,13 @@
     flex-direction: column;
 }
 
+.ProjectOverlay {
+    background: #ffffffc7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .cardSection {
     display: flex;
     flex-wrap: wrap;

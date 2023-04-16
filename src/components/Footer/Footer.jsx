@@ -14,7 +14,7 @@ const Footer = () => {
         <div>
           <img src={logo} height={160} alt='Zeeshan' />
           <h3 style={{margin: '0'}}>Zeeshan</h3>
-          <h4>Constructions</h4>
+          <h4>Construction</h4>
           </div>
         <div>
           <p>Company</p>
@@ -41,7 +41,7 @@ const Footer = () => {
         <img className='socialItem' src={yt} width={30} height={30}/>
         <img className='socialItem' src={ln} width={30} height={30}/>
       </div>
-      <div><p>copyright@Zeeshan Constructions.</p>
+      <div><p>copyright@Zeeshan Construction.</p>
       </div>
       
     </div>

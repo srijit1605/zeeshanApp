@@ -11,10 +11,10 @@ const FeaturedProperties = () => {
       <div className="imageBlock"></div>
       <div className="rowBlock">
         <div className="imageRowBlock1">
-          <h2>Z.N.G Residency</h2>
+          <h2 style={{color: 'white', filter: 'drop-shadow(0 0 4px #000)'}}>Z.N.G Residency</h2>
         </div>
         <div className="imageRowBlock2">
-          <h2>Home@56</h2>
+          <h2 style={{color: 'white', filter: 'drop-shadow(0 0 4px #000)'}}>Home@56</h2>
         </div>
         <button className="exploreBtn">VIEW MORE</button>
       </div>

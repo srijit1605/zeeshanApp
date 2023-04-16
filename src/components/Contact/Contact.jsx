@@ -4,6 +4,7 @@ import "./contact.css";
 const Contact = () => {
   return (
     <div className="contactContainer">
+      <div className="contactOverlay">
       <div className="leftContact">
         <h2>Subscribe to our mailing list</h2>
         <label>Enter your email:</label>
@@ -20,6 +21,7 @@ const Contact = () => {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+      </div>
       </div>
     </div>
   );

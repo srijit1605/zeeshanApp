@@ -6,16 +6,13 @@ const Usp = () => {
     <div className='uspBg'>
       <div className='uspOverlay'>
         <div className='uspItem'>
-          <h1>Header</h1>
-          <p>description text lorem ipsum.</p>
+          <h1>Coming Soon</h1>
         </div>
         <div className='uspItem'>
-          <h1>Header</h1>
-          <p>description text lorem ipsum.</p>
+          <h1>Coming Soon</h1>
         </div>
         <div className='uspItem'>
-          <h1>Header</h1>
-          <p>description text lorem ipsum.</p>
+          <h1>Coming Soon</h1>
         </div>
       </div>
     </div>

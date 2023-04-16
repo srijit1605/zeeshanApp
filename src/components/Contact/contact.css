@@ -2,8 +2,17 @@
     background-image: url(../../assets/contactConstruction.jpeg);
     background-size: cover;
     min-height: 80vH;
-    padding: 3rem;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.contactOverlay {
+    background-color: #00000066;
+    width: 100%;
+    display: flex;
+    padding: 3rem;
     justify-content: space-around;
     align-items: center;
     color: white;

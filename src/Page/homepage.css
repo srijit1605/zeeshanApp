@@ -1,8 +1,12 @@
 .background {
     background-image: url(../assets/groupBgImage.gif);
-    height: 89.9vh;
+    height: 100vh;
     background-size: cover;
-    padding: 2rem;
+}
+
+.bgOverlay {
+    background-color: #000000bb;
+    height: 100vh;
 }
 
 .socialMenuItem {
@@ -11,5 +15,15 @@
 
 .card {
     width: 100%;    
+    color: white;
+    transition: 300ms;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+h1 {
     color: white;
 }

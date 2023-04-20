@@ -1,0 +1,15 @@
+.background {
+    background-image: url(../assets/groupBgImage.gif);
+    height: 89.9vh;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.socialMenuItem {
+    color: white;
+}
+
+.card {
+    width: 100%;    
+    color: white;
+}

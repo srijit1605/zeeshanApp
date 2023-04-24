@@ -5,13 +5,15 @@ import './App.css';
 //   Route
 // } from "react-router-dom";
 import Homepage from './Page/Homepage';
-// import HomepageConstruction from './Page/HomepageConstruction';
-import React from 'react';
+import HomepageConstruction from './Page/HomepageConstruction';
+import React, { useState } from 'react';
 
 function App() {
+  const [zeeshanGroup, setZeeshanGroup] = useState('group')
   return (
     <div className="App">
-      <Homepage/>
+      {/* <Homepage setZeeshanGroup={setZeeshanGroup}/> */}
+      {zeeshanGroup === 'construction'? <HomepageConstruction setZeeshanGroup={setZeeshanGroup}/> : zeeshanGroup === 'group' ? <Homepage setZeeshanGroup={setZeeshanGroup}/> : null}
     {/* <Router>  
     <div>  
       <h1>React Router Example</h1>  

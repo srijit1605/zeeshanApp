@@ -10,18 +10,18 @@ import trading from './../assets/trading.jpg'
 import construction from './../assets/construction.jpg'
 import comingSoon from './../assets/comingsoon.jpg'
 
-const Homepage = () => {
+const Homepage = ({setZeeshanGroup}) => {
     return (
         <div className='background'>
             <div className='bgOverlay'>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <img style={{padding: '20px'}} src={logo} height={60} alt='Zeeshan' />
-                <div className='socialButton'>
-                    <img className='socialMenuItem' src={fb} width={30} height={30} />
-                    <img className='socialMenuItem' src={insta} width={30} height={30} />
-                    <img className='socialMenuItem' src={tw} width={30} height={30} />
-                    <img className='socialMenuItem' src={yt} width={30} height={30} />
-                    <img className='socialMenuItem' src={ln} width={30} height={30} />
+                <div className='socialGroupButton'>
+                    <img alt={'fb'} className='socialMenuItem' src={fb} width={30} height={30} />
+                    <img alt={'insta'} className='socialMenuItem' src={insta} width={30} height={30} />
+                    <img alt={'tw'} className='socialMenuItem' src={tw} width={30} height={30} />
+                    <img alt={'yt'} className='socialMenuItem' src={yt} width={30} height={30} />
+                    <img alt={'ln'} className='socialMenuItem' src={ln} width={30} height={30} />
                 </div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -29,16 +29,16 @@ const Homepage = () => {
                 <div><h1>The<br/><span style={{fontSize: '60px', lineHeight: '70px'}}>Zeeshan</span><br/>Group</h1></div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-                <div style={{ width: '28%' }}>
-                    <img className='card' src={trading} />
+                <div style={{ width: '28%', cursor: 'pointer' }}>
+                    <img alt='trading' className='card' src={trading} />
                     <h1>Zeeshan Traders</h1>
                 </div>
-                <div style={{ width: '30%' }}>
-                   <a href='https://zeeshan-six.vercel.app/'> <img className='card' src={construction} /> </a>
+                <div onClick={() => {setZeeshanGroup('construction')}} style={{ width: '28%', cursor: 'pointer' }}>
+                    <img alt='construction' className='card' src={construction} /> 
                     <h1>Zeeshan Construction</h1>
                 </div>
-                <div style={{ width: '30%' }}>
-                    <img className='card' src={comingSoon} />
+                <div style={{ width: '28%', cursor: 'pointer' }}>
+                    <img alt='comingSoon' className='card' src={comingSoon} />
                     <h1>Coming Soon</h1>
                 </div>
             </div>

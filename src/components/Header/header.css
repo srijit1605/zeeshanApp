@@ -35,5 +35,15 @@
 
 .navItem {
     padding: 0 10px;
+    font-weight: 400;
     cursor: pointer;
+    color: black;
+    transition: 100ms;
+}
+
+.navItem:hover {
+    font-weight: 800;
+    color: #d1b393;
+    filter: drop-shadow(0 0 2px #000);
+    transition: 100ms;
 }

@@ -7,7 +7,7 @@ import Banner from '../components/Banner/Banner'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
 
-const HomepageConstruction = () => {
+const HomepageConstruction = ({setZeeshanGroup}) => {
     return (
         <div>
             <Header />
@@ -16,7 +16,7 @@ const HomepageConstruction = () => {
             <Assist />
             <Banner />
             <Contact />
-            <Footer />
+            <Footer setZeeshanGroup={setZeeshanGroup}/>
         </div>
     )
 }

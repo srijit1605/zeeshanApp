@@ -1,8 +1,8 @@
 .bannerContainer {
     background-image: url(../../assets/wfh.jpeg);
     background-size: cover;
-    min-height: 80vH;
-    padding: 3rem;
+    min-height: 85vH;
+    /* padding: 3rem; */
 }
 .bannerText {
     color: #bada55;

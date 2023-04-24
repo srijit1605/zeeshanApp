@@ -1,22 +1,28 @@
 import './App.css';
-import About from './components/About';
-import Assist from './components/Assist/Assist';
-import Banner from './components/Banner/Banner';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route
+// } from "react-router-dom";
+import Homepage from './Page/Homepage';
+import HomepageConstruction from './Page/HomepageConstruction';
+import React, { useState } from 'react';
 
 function App() {
+  const [zeeshanGroup, setZeeshanGroup] = useState('group')
   return (
     <div className="App">
-      <Header/>
-      <Hero/>
-      <About/>
-      <Assist/>
-      <Banner/>
-      <Contact/>
-      <Footer/>
+      {/* <Homepage setZeeshanGroup={setZeeshanGroup}/> */}
+      {zeeshanGroup === 'construction'? <HomepageConstruction setZeeshanGroup={setZeeshanGroup}/> : zeeshanGroup === 'group' ? <Homepage setZeeshanGroup={setZeeshanGroup}/> : null}
+    {/* <Router>  
+    <div>  
+      <h1>React Router Example</h1>  
+      <Routes >
+    <Route path="/" component={<Homepage/>} />  
+      <Route path="/zeeshan-construction" component={<HomepageConstruction/>} />  
+      </Routes>  
+    </div>  
+  </Router>   */}
     </div>
   );
 }

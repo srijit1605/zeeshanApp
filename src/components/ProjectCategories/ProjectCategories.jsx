@@ -49,7 +49,7 @@ const ProjectCategories = () => {
     <div className="ProjectBackground">
       <div className="ProjectContainer">
         <div className="ProjectOverlay">
-        <h1>Project Categories</h1>
+        <h1 style={{color: '#000'}}>Project Categories</h1>
         <h3>Choose your home based on the type you are looking for. That will make your search much easier.</h3>
         <div className="cardSection">
           {projCategories.map((category, key) => <Card key={key} name={category.title} bg={category.url}/>)}

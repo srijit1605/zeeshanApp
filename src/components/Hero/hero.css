@@ -42,6 +42,8 @@
     border:1px solid #110c58;
     width: max-content;
     filter: drop-shadow(4px 4px 4px #00000099);
+    font-family: Flamenco;
+    font-size: 20px;
 }
 
 .FeaturedPropertiesContainer {
